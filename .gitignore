@@ -1,1 +1,3 @@
 *.venv
+sklearn-env/
+.DS_Store
