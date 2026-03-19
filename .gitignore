@@ -1,4 +1,21 @@
 *.venv
+.venv/
+venv/
+env/
 sklearn-env/
 .DS_Store
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editable install / packaging (pip install -e .)
+*.egg-info/
+dist/
+build/
+
+# Local secrets / env files (e.g. API keys)
+.env
+.env.local
